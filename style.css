@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.background-img {
+  width: 100%;
+}
+
+.container {
+  height: 80vh;
+  background-color: #1e90ff;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+
+.stylish-intro {
+  grid-column-start: 2;
+  font-size: 60pt;
+  color: #031f8b;
+  font-weight: bold;
+  font-family: "Tangerine", serif;
+}
+
+.normal-intro {
+  grid-column-start: 2;
+  font-size: 30pt;
+  color: #031f8b;
+  font-family: "Trirong", serif;
+}
