@@ -10,13 +10,17 @@ body {
   height: 80vh;
   background-color: #1e90ff;
   display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
   justify-content: center;
 }
 
 .stylish-intro {
-  grid-column-start: 2;
   font-size: 60pt;
   color: #031f8b;
   font-weight: bold;
@@ -24,7 +28,6 @@ body {
 }
 
 .normal-intro {
-  grid-column-start: 2;
   font-size: 30pt;
   color: #031f8b;
   font-family: "Trirong", serif;
