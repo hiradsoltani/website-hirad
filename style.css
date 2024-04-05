@@ -2,12 +2,9 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-h3 {
-  font-family: "Open Sans", sans-serif;
-}
-
-.font-robo-slab {
+.heading-2 {
   font-family: "Roboto Slab", serif;
+  color: #4942e4;
 }
 
 .font-size-20 {
@@ -33,6 +30,18 @@ h3 {
 
 .flex-start {
   justify-content: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.min-width-300 {
+  min-width: 300px;
+}
+
+.max-width-500 {
+  max-width: 500px;
 }
 
 .stylish-intro {
@@ -72,4 +81,8 @@ h3 {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  font-size: 15px;
 }
